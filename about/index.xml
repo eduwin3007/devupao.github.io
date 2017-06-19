@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sobre nosotros on Dev/UPAO</title>
+    <link>https://devupao.github.io/about/</link>
+    <description>Recent content in Sobre nosotros on Dev/UPAO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 14 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://devupao.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
