@@ -1,0 +1,209 @@
+    <!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="dev/upao">
+		<meta name="description" content="Comunidad de desarrollo y software libre de UPAO">
+		<meta name="generator" content="Hugo 0.23" />
+		<title>Como escribir un post para dev/upao &middot; Dev/UPAO</title>
+		<link rel="shortcut icon" href="https://devupao.github.io/images/favicon.ico">
+		<link rel="stylesheet" href="https://devupao.github.io/css/style.css">
+		<link rel="stylesheet" href="https://devupao.github.io/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="https://devupao.github.io/css/font-awesome.min.css">
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://devupao.github.io/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://devupao.github.io/post'>Archivo</a>
+	<a href='https://devupao.github.io/tags'>Etiquetas</a>
+	<a href='https://devupao.github.io/about'>Sobre nosotros</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        Como escribir un post para dev/upao
+                    </h1>
+                    <h2 class="headline">
+                    Jun 19, 2017 00:00
+                    · 307 words
+                    · 2 minutos de lectura
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://devupao.github.io/tags/hugo">hugo</a>
+                          
+                              <a href="https://devupao.github.io/tags/github">github</a>
+                          
+                              <a href="https://devupao.github.io/tags/dev/upao">dev/upao</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+
+                    <p class="headline">
+                        Por /dev/ali
+                    </p>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<p>Gracias por leer este artículo, entiendo que deseas colaborar con la comunidad de Dev/UPAO.  El blog de Dev/UPAO está hecho por desarrolladores para desarrolladores, actualmente está desplegado sobre github.io, el cual es un proveedor de páginas estáticas, o sea html puro.</p>
+
+<h2 id="qué-es-github-pages">¿Qué es GitHub Pages?</h2>
+
+<p>#TODO</p>
+
+<h2 id="que-es-un-generador-de-páginas-estáticas">¿Que es un generador de páginas estáticas?</h2>
+
+<p>#TODO</p>
+
+<h3 id="quien-es-hugo">¿Quien es HUGO?</h3>
+
+<h2 id="ventajas">Ventajas:</h2>
+
+<ul>
+<li>Nos permite trabajar con hostings estáticos.</li>
+<li>Trabaja con <strong>Markdown</strong></li>
+
+<li><p>Es fácil de instalar y usar.</p>
+
+<h2 id="como-enviar-mi-post">¿Como enviar mi post?</h2>
+
+<p>Para enviar tu post como un buen <strong>desarrollador alpha</strong> tienes que enviar un <code>pull request</code> a nuestro repositorio <a href="https://github.com/DevUPAO/devupao.github.io-src">GitHub - DevUPAO/devupao.github.io-src</a>  con tu post en la carpeta <code>/content/post</code></p></li>
+</ul>
+
+<h3 id="conocimientos-requeridos">Conocimientos requeridos</h3>
+
+<p><i class="fa fa-check"></i>  Git</p>
+
+<p><i class="fa fa-check"></i>  Markdown</p>
+
+<h3 id="método-1-realizando-un-clone">Método 1: Realizando un Clone</h3>
+
+<p>La primera forma es hacer un clone de la página de devupao localmente</p>
+
+<pre><code>git clone git@github.com:DevUPAO/devupao.github.io-src.git
+</code></pre>
+
+<p>Ejecutan hugo para crear un nuevo post donde <code>first-post.md</code> es el nombre de tu post</p>
+
+<pre><code class="language-bash">hugo new post/first-post.md
+</code></pre>
+
+<blockquote>
+<p>Para los usuarios de Windows, se ha incluido un <code>hugo.exe</code> en el repositorio el cual facilita la ejecución con <code>hugo.exe new post/first-post.md</code></p>
+</blockquote>
+
+<p>Modifican el archivo creado en <code>content/post/first-post.md</code>.</p>
+
+<p>Para ver el post que han escrito, ejecutan <code>hugo server -w</code> el <code>w</code> hará que el servidor se actualice con <code>livereload</code> o sea mientras actualizan el archivo.</p>
+
+<p>Luego hacen:</p>
+
+<pre><code>git add -A
+git commit -m &quot;Mi Primer Post&quot;
+git push origin your-post
+</code></pre>
+
+<p>Luego te vas a tu repositorio en github y haces un <code>pull request</code>, con ello enviarás tu publicación a dev/upao, nosotros lo validaremos e integraremos a nuestro repositorio y por lo tanto a la página.</p>
+
+<h3 id="método-2-creando-y-editando-el-archivo-directamente-en-github">Método 2: Creando y editando el archivo directamente en github.</h3>
+
+<p>#Todo</p>
+
+<hr />
+
+<h3 id="adicional-estructura-del-post">Adicional: Estructura del post</h3>
+
+<pre><code>---
+author: &quot;Juan Perez&quot;
+date: 2017-06-19
+title: Hola Mundo
+description: Todo el mundo tiene un hola mundo
+tags: &quot;etiqueta1&quot;, &quot;etiqueta2&quot;, &quot;etiqueta3&quot;
+---
+
+## Sub titulo
+</code></pre>
+
+<p>Si tienes alguna pregunta, no dudes en escribirnos a  <a href="https://www.facebook.com/Devupao-450137858679179/">la fanpage de la comunidad</a>.</p>
+
+                </section>
+            </article>
+
+            
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com/Devupao-450137858679179/">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="http://github.com/DevUPAO">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="your_twitter_link">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2017 <i class="fa fa-heart" aria-hidden="true"></i> dev/upao
+    
+    </p>
+    <p class="small">
+        Una comunidad de <a href="www.upao.edu.pe">upao.edu.pe</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://devupao.github.io/js/jquery-2.2.4.min.js"></script>
+<script src="https://devupao.github.io/js/main.js"></script>
+<script src="https://devupao.github.io/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+    </body>
+</html>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dev/UPAO</title>
-    <link>https://devupao.github.io/</link>
-    <description>Recent content on Dev/UPAO</description>
+    <title>Dev/Upao on Dev/UPAO</title>
+    <link>https://devupao.github.io/tags/dev/upao/</link>
+    <description>Recent content in Dev/Upao on Dev/UPAO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Mon, 19 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://devupao.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devupao.github.io/tags/dev/upao/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
 ¿Qué es GitHub Pages? #TODO
 ¿Que es un generador de páginas estáticas? #TODO
 ¿Quien es HUGO? Ventajas:  Nos permite trabajar con hostings estáticos. Trabaja con Markdown Es fácil de instalar y usar.</description>
-    </item>
-    
-    <item>
-      <title>Hola Mundo</title>
-      <link>https://devupao.github.io/post/hola-mundo/</link>
-      <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://devupao.github.io/post/hola-mundo/</guid>
-      <description> Hola Mundo Todo el mundo tiene un hola mundo
-print(&amp;quot;hola mundo&amp;quot;)   Este es el nuestro!
- </description>
     </item>
     
   </channel>
